@@ -15,13 +15,20 @@ int main()
 	Kids* varKids2 = new Kids ("Mick Jagger");
 	Kids* varKids3 = new Kids ("Christ Martin");
 
-	varMom1->addKid(varKids1);
-	varMom1->addKid(varKids2);
-	varMom2->addKid(varKids3);
-	varMom2->addKid(varKids1);
+	varMom1->addKids(varKids1);
+	varMom1->addKids(varKids2);
+	varMom2->addKids(varKids3);
+	varMom2->addKids(varKids1);
 
-	varMom1 -> printKid();
-	varMom2->printKid();
+	varMom1 -> printKids();
+	varMom2->printKids();
+
+	delete varMom1;
+	delete varMom2;
+
+	delete varKids1;
+	delete varKids2;
+	delete varKids3;
 
 	return 0;
 }

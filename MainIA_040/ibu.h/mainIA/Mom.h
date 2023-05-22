@@ -18,16 +18,16 @@ public:
 		cout << "Mom \"" << Name << "\" Not Available\n";
 	}
 
-	void addKid(Kids*);
-	void printKid();
+	void addKids(Kids*);
+	void printKids();
 };
 
-void Mom::addKid(Kids* pKid)
+void Mom::addKids(Kids* pKids)
 {
-	Kids_list.push_back(pKid);
+	Kids_list.push_back(pKids);
 }
 
-void Mom::printKid()
+void Mom::printKids()
 {
 	cout << "Kids List from a Mother \"" << this->Name << "\":n";
 	for (auto& a : Kids_list)
