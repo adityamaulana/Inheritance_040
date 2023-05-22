@@ -65,4 +65,13 @@ int main()
 	Doctor* varDoctor2 = new Doctor("dr.Coki");
 	Patient* varPatient1 = new Patient("Tretan");
 	Patient* varPatient2 = new Patient("Ebel");
+
+	varDoctor1->addPatient(varPatient1);
+	varDoctor1->addPatient(varPatient2);
+	varDoctor2->addPatient(varPatient1);
+
+	varDoctor1->printPatient();
+	varDoctor2->printPatient();
+	varPatient1->printDoctor();
+	varPatient2->printDoctor();
 }
