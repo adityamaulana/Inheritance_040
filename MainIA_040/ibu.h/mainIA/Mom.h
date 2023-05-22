@@ -18,7 +18,7 @@ public:
 		cout << "Mom \"" << Name << "\" Not Available\n";
 	}
 
-	void addKids(Kids*);
+	void addKids();
 	void printKids();
 };
 
