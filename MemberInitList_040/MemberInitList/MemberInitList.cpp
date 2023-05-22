@@ -21,3 +21,10 @@ public:
 		}
 	
 };
+
+int main()
+{
+	Student std(99, "James Gunn", 40);
+
+	return 0;
+}
