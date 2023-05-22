@@ -42,3 +42,10 @@ public:
 	void addPatient(Patient*);
 	void printPatient();
 };
+
+void Patient::addDoctor(Doctor* pDoctor)
+{
+	Doctor_list.push_back(pDoctor);
+}
+
+void 
