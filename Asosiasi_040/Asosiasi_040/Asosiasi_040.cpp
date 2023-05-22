@@ -74,4 +74,6 @@ int main()
 	varDoctor2->printPatient();
 	varPatient1->printDoctor();
 	varPatient2->printDoctor();
+
+	return 0;
 }
