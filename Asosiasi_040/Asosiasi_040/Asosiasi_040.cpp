@@ -58,3 +58,11 @@ void Patient::printDoctor()
 
 	cout << endl;
 }
+
+int main()
+{
+	Doctor* varDoctor1 = new Doctor("dr.Martin");
+	Doctor* varDoctor2 = new Doctor("dr.Coki");
+	Patient* varPatient1 = new Patient("Tretan");
+	Patient* varPatient2 = new Patient("Ebel");
+}
