@@ -1,10 +1,8 @@
-#ifndef MOM_H
-#define MOM_H
-#endif // !MOM_H
+#include <iostream>
+#include <vector>
 
-class Mom
-{
-public:
-	string Name;
-	vector<kid*> Kids_list;
-};
+using namespace std;
+
+#include "Mom.h"
+#include "Kids.h"
+
