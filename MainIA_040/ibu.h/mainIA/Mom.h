@@ -21,3 +21,21 @@ public:
 	void addKid(Kid*);
 	void printKid();
 };
+
+void Mom::addKid(Kid* pKid)
+{
+	Kids_list.push_back(pKid);
+}
+
+void Mom::printKid()
+{
+	cout << "Kids List from a Mother \"" this->Name << "\":n";
+	for (auto& a : Kids_list)
+	{
+		cout << a->Name << "\n";
+	}
+
+	cout << endl;
+}
+
+#endif
