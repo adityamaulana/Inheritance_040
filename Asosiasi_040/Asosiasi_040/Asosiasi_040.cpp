@@ -48,4 +48,13 @@ void Patient::addDoctor(Doctor* pDoctor)
 	Doctor_list.push_back(pDoctor);
 }
 
-void 
+void Patient::printDoctor()
+{
+	cout << "Doctor duty's list \"" << this->Name << "\":\n";
+	for (auto& a : Doctor_list)
+	{
+		cout << a->Name << "\n";
+	}
+
+	cout << endl;
+}
