@@ -28,4 +28,17 @@ public:
 	{
 		cout << "Doctor \"" << Name << "\" Available\n";
 	}
+
+	~Doctor()
+	{
+		cout << "Doctor \"" << Name << "\" Not Available\n";
+	}
+
+	~Doctor()
+	{
+		cout << "Doctor \"" << Name << "\" Not Available\n";
+	}
+
+	void addPatient(Patient*);
+	void printPatient();
 };
