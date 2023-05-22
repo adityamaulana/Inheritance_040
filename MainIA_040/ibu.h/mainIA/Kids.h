@@ -7,7 +7,7 @@ public:
 	string Name;
 	Kids(string pName) :Name(pName)
 	{
-		cout << " Kids \ "" << Name "\" Available\n";
+		cout << " Kids \"" << Name << "\" Avail\n";
 	}
 
 	~Kids()
